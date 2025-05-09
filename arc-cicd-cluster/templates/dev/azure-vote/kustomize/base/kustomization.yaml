@@ -5,8 +5,8 @@ namespace: dev
 
 images:
   - name: fluxdemoacr.azurecr.io/azvote/azure-vote-front
-    newTag: 374acd3eb362f89f8868687f0a8fd551e85abf27
+    newTag: 75c719e63f4e4f7d48247ca6527a56ef9ae3019f
   - name: fluxdemoacr.azurecr.io/azvote/azure-vote-back
-    newTag: 374acd3eb362f89f8868687f0a8fd551e85abf27
+    newTag: 75c719e63f4e4f7d48247ca6527a56ef9ae3019f
 resources:
   - manifests.yaml
