@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dev
 
 images:
-  - name: fluxdemoacr/.azurecr.io//azure-vote-front
-    newTag: 93757968be9aa55b81ecd4d93ead57a4dc0c321d
-  - name: fluxdemoacr/.azurecr.io//azure-vote-back
-    newTag: 93757968be9aa55b81ecd4d93ead57a4dc0c321d
+  - name: fluxdemoacr.azurecr.io//azure-vote-front
+    newTag: 203828d2c82981b50067a5d147726fee4cfeb3a4
+  - name: fluxdemoacr.azurecr.io//azure-vote-back
+    newTag: 203828d2c82981b50067a5d147726fee4cfeb3a4
 resources:
   - manifests.yaml
