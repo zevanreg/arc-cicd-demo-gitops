@@ -1,4 +1,4 @@
 title: "Voting Application"
-serviceType: ClusterIP
+serviceType: LoadBalancer
 imageRepo: vikkzldemoacr.azurecr.io/azvote
 demoAppUrl: "/"
