@@ -5,8 +5,8 @@ namespace: dev
 
 images:
   - name: vikkzldemoacr.azurecr.io/azvote/azure-vote-front
-    newTag: 0f6bdabf4b0fc828374ca7504f79c68b46dafd09
+    newTag: cde384d30b44010e6ff5dafd9fcdcac736d1645a
   - name: vikkzldemoacr.azurecr.io/azvote/azure-vote-back
-    newTag: 0f6bdabf4b0fc828374ca7504f79c68b46dafd09
+    newTag: cde384d30b44010e6ff5dafd9fcdcac736d1645a
 resources:
   - manifests.yaml
