@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: stage
+
+images:
+  - name: /azure-vote-front
+    newTag: 0f6bdabf4b0fc828374ca7504f79c68b46dafd09
+  - name: /azure-vote-back
+    newTag: 0f6bdabf4b0fc828374ca7504f79c68b46dafd09
+resources:
+  - manifests.yaml
