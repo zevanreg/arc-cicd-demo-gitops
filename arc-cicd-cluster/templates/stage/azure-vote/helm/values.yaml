@@ -1,0 +1,4 @@
+title: "Voting Application"
+serviceType: LoadBalancer
+imageRepo: vikkzldemoacr.azurecr.io/azvote
+demoAppUrl: "/"
